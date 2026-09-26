@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+<rect width="800" height="560" fill="#0f1416"/>
+<text x="60" y="80" fill="#ff7a45" font-size="26" font-weight="bold">TrioChart</text>
+<text x="60" y="120" fill="#ffffff" font-size="34" font-weight="bold">A  ×  B</text>
+<text x="700" y="120" fill="#ff7a45" font-size="52" font-weight="bold">59</text>
+<text x="700" y="150" fill="#90a4ae" font-size="16">total /100</text>
+<text x="60" y="198" fill="#cfd8dc" font-size="20">BaZi five elements</text><rect x="60" y="210" width="640" height="20" rx="10" fill="#263238"/><rect x="60" y="210" width="197" height="20" rx="10" fill="#ff7a45"/><text x="716" y="226" fill="#ffb08a" font-size="20">31</text><text x="60" y="276" fill="#cfd8dc" font-size="20">Sun sign layer</text><rect x="60" y="288" width="640" height="20" rx="10" fill="#263238"/><rect x="60" y="288" width="608" height="20" rx="10" fill="#ff7a45"/><text x="716" y="304" fill="#ffb08a" font-size="20">95</text><text x="60" y="354" fill="#cfd8dc" font-size="20">Personality axes</text><rect x="60" y="366" width="640" height="20" rx="10" fill="#263238"/><rect x="60" y="366" width="393" height="20" rx="10" fill="#ff7a45"/><text x="716" y="382" fill="#ffb08a" font-size="20">62</text>
+<text x="60" y="440" fill="#90a4ae" font-size="15">confidence 0.75 - self-reported inputs only, rules are open in engine.py</text>
+<text x="60" y="470" fill="#546e7a" font-size="14">For entertainment and cultural research. No medical, legal or financial advice.</text>
+<text x="60" y="500" fill="#546e7a" font-size="14">BaZi via lunar-python; scoring rules are published and replaceable, not a prediction.</text>
+<text x="60" y="530" fill="#37474f" font-size="13">github.com/Even-li316</text>
+</svg>

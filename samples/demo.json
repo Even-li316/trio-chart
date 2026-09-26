@@ -1,0 +1,146 @@
+{
+  "total": 59.3,
+  "confidence": 0.75,
+  "channels": {
+    "bazi": 30.9,
+    "zodiac": 95.0,
+    "persona": 61.5
+  },
+  "weights": {
+    "bazi": 0.4,
+    "zodiac": 0.3,
+    "persona": 0.3
+  },
+  "bazi": {
+    "a": {
+      "pillars": [
+        "庚午",
+        "庚辰",
+        "戊辰",
+        "丙辰"
+      ],
+      "gan": [
+        "庚",
+        "庚",
+        "戊",
+        "丙"
+      ],
+      "zhi": [
+        "午",
+        "辰",
+        "辰",
+        "辰"
+      ],
+      "day_master": "戊",
+      "day_master_element": "土",
+      "wuxing_raw": {
+        "木": 1.5,
+        "火": 3.0,
+        "土": 7.5,
+        "金": 2.0,
+        "水": 0.8999999999999999
+      },
+      "wuxing": {
+        "木": 0.1007,
+        "火": 0.2013,
+        "土": 0.5034,
+        "金": 0.1342,
+        "水": 0.0604
+      },
+      "zodiac": "马",
+      "lunar_date": "一九九〇年四月初九",
+      "nayin_day": "大林木",
+      "ming_gong": "乙酉",
+      "tai_yuan": "辛未"
+    },
+    "b": {
+      "pillars": [
+        "壬申",
+        "辛亥",
+        "戊子",
+        "癸亥"
+      ],
+      "gan": [
+        "壬",
+        "辛",
+        "戊",
+        "癸"
+      ],
+      "zhi": [
+        "申",
+        "亥",
+        "子",
+        "亥"
+      ],
+      "day_master": "戊",
+      "day_master_element": "土",
+      "wuxing_raw": {
+        "木": 1.0,
+        "火": 0.0,
+        "土": 1.3,
+        "金": 3.0,
+        "水": 8.5
+      },
+      "wuxing": {
+        "木": 0.0725,
+        "火": 0.0,
+        "土": 0.0942,
+        "金": 0.2174,
+        "水": 0.6159
+      },
+      "zodiac": "猴",
+      "lunar_date": "一九九二年十月十四",
+      "nayin_day": "霹雳火",
+      "ming_gong": "丁未",
+      "tai_yuan": "壬寅"
+    },
+    "cosine": 0.32,
+    "complement": [
+      0.353,
+      0.245
+    ]
+  },
+  "zodiac": {
+    "a": {
+      "sign": "Pisces",
+      "sign_cn": "双鱼",
+      "element": "water",
+      "modality": "mutable"
+    },
+    "b": {
+      "sign": "Pisces",
+      "sign_cn": "双鱼",
+      "element": "water",
+      "modality": "mutable"
+    },
+    "note": "same element: same tempo, risk of shared blind spot"
+  },
+  "persona_notes": [
+    "E/I differs: different social batteries, plan recharge time",
+    "TF differs: needs explicit negotiation, not intuition",
+    "JP differs: needs explicit negotiation, not intuition"
+  ],
+  "why": [
+    "five-element overlap 0.32, mutual supply a->b 0.35 b->a 0.25",
+    "day masters 戊 vs 戊",
+    "sun signs 双鱼(water) vs 双鱼(water)"
+  ],
+  "people": {
+    "a": "A",
+    "b": "B",
+    "a_pillars": [
+      "庚午",
+      "庚辰",
+      "戊辰",
+      "丙辰"
+    ],
+    "b_pillars": [
+      "壬申",
+      "辛亥",
+      "戊子",
+      "癸亥"
+    ],
+    "a_sign": "双鱼",
+    "b_sign": "双鱼"
+  }
+}
