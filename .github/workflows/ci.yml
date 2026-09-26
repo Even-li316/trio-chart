@@ -1,0 +1,13 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m trio_chart --a samples/a.json --b samples/b.json --svg /tmp/out.svg --json /tmp/out.json
+      - run: python -c "import json;d=json.load(open('/tmp/out.json'));assert 0<=d['total']<=100 and d['confidence']>0;print('total',d['total'],'confidence',d['confidence'])"
